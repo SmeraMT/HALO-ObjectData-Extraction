@@ -1,1 +1,2 @@
-HALO Multiplex data extraction and analysis
+HALO Multiplex data extraction and analysis. Highplex data extraction has codes to extract percentage of cell data and double/triple marker positive percentage calculations. 
+Nearest Neighbour codes - This code is for analysing NN data: distance of nearest cell type A(here, tumor) to cell type B, C, D etc. It takes in NN object data files and highplex object data file. It gives cell count in different classifier regions by mapping cell ID in NN object data file to object ID in highplex object data file. Bin width defined is 0.5um - can be changes. Finally gives a single xlsx file with multiple sheets - each corresponding to a single sample. Multiple NN object data file for a single sample can be uploaded at once. 
